@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); /* Example font */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+header {
+    background-color: #3b6e22;  /* Green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
 
 .logo h1 {
     font-family: 'Fredoka One', cursive;
