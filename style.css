@@ -3,7 +3,7 @@
 header {
     background-color: #3b6e22;  /* Green background */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 60px;
 }
