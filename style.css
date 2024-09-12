@@ -9,11 +9,10 @@ header {
 }
 
 .logo h1 {
-    font-family: 'Fredoka One', cursive;
-     font-size: 2.5rem;                    /* Large font */
+    font-family: 'Fredoka One', cursive;  /* Playful font */
+    font-size: 2.5rem;                    /* Large font */
     font-weight: bold;
     color: #FFFFFF;                       /* White text */
     padding: 10px 20px;
     margin: 0;
 }
-
