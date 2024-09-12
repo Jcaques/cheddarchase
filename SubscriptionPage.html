@@ -15,6 +15,38 @@
     <div class="container">
         <h1>My Subscriptions</h1>
         <h2>Enter your monthly subscriptions below and track how much you're spending!</h2>
+        <table>
+        <thead>
+            <tr>
+                <th>Subscription Name</th>
+                <th>Cost</th>
+                <th>Billing Cycle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" name="subscriptionName1" placeholder="e.g., Netflix"></td>
+                <td><input type="number" name="cost1" placeholder="e.g., 9.99" step="0.01"></td>
+                <td>
+                    <select name="billingCycle1">
+                        <option value="monthly">Monthly</option>
+                        <option value="yearly">Yearly</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="text" name="subscriptionName2" placeholder="e.g., Spotify"></td>
+                <td><input type="number" name="cost2" placeholder="e.g., 4.99" step="0.01"></td>
+                <td>
+                    <select name="billingCycle2">
+                        <option value="monthly">Monthly</option>
+                        <option value="yearly">Yearly</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
     </div>
 </body>
 </html>
