@@ -84,3 +84,13 @@ button:hover {
 .login:hover{
     text-decoration: underline;
 }
+
+.sign_up {
+    font-size: 12px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sign_up:hover {
+    text-decoration: underline;
+}
