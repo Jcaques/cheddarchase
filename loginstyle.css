@@ -1,0 +1,74 @@
+/* Reset some basic styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the section vertically and horizontally */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4; /* Optional: Add a subtle background color */
+}
+
+/* Style for the login container */
+.login-container {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Style for the "LOGIN" heading */
+.login-container h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* Style for the form */
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input fields styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Forgot password link */
+.forgot-password {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
